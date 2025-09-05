@@ -1,0 +1,61 @@
+
+body{
+    background-color: blue;
+}
+main{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.kanek{
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(kaneknormal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+
+.kanek:active{
+    align-items: center;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(kanekwhite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.2s;
+}
+section{
+    background-color: orange;
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+section h1{
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+    transition: 0.2s;
+}
+section h1:hover{
+    font-size: 50px;
+    color: white;
+    transition: 0.2s;
+}
+section p{
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+    transition: 0.2s;
+}
+section p:hover{
+    color: blue;
+    transition: 0.2s;
+}
